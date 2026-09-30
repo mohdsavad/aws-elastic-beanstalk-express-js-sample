@@ -148,3 +148,4 @@ pipeline {
             echo 'Pipeline failed. Review the failed stage and archived reports.'
         }
     }
+}
