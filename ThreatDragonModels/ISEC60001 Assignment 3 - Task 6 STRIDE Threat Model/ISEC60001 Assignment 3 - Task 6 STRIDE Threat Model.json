@@ -30,7 +30,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "External network (Internet)"
               }
             },
             "visible": true,
@@ -39,7 +39,7 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "External network (Internet)",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -63,7 +63,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary"
+                "text": "Application Network (Internal)"
               }
             },
             "visible": true,
@@ -71,7 +71,7 @@
             "id": "b7ebd7bf-00d7-4892-854c-92c85d66a5ac",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "Application Network (Internal)",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -84,7 +84,14 @@
                 "984d3b7c-e0ac-42c4-ac8a-a35186a78476"
               ]
             },
-            "zIndex": -1
+            "zIndex": -1,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
