@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "2026-10-28",
+  "summary": {
+    "title": "ISEC60001 Assignment 3 - Task 6 STRIDE Threat Model",
+    "owner": "Mohammed Savad",
+    "description": "This threat model analyses a three-tier web application consisting of a User Interface (UI), a Web Application, and a Database. Users interact with the UI to submit requests and access information. The Web Application processes requests, performs authentication and authorisation, and communicates with the Database to store and retrieve information. The STRIDE methodology is used to identify security threats involving spoofing, tampering, repudiation, information disclosure, denial of service, and elevation of privilege.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Three-Tier Web Application STRIDE Threat Model",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data flow diagram showing interactions between the User Interface, Web Application, and Database, including trust boundaries, data flows, and security threats identified using STRIDE."
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
